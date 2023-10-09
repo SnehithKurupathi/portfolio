@@ -1,0 +1,43 @@
+.resume{
+    background-image: url("https://previews.123rf.com/images/eigens/eigens1912/eigens191200865/136564682-simple-colorful-modern-waves-background-design-with-baby-pink-pastel-magenta-and-light-pink-color.jpg");
+    background-size: cover;
+    padding:20px;
+}
+
+.education, .work, .skill{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    margin:15px;
+}
+.education h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+}
+.skill-name{
+    list-style: none;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+
+}
+
+.skill-desc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.skill, .work, .education span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;   
+}

@@ -1,0 +1,53 @@
+.portfolio{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9arJSf4-fHvY0IcZA1ICr0x0Xden9u7uRtQ&usqp=CAU");
+    background-size:cover;
+    padding:2%;
+}
+
+.name, .desc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:#ffffff;
+    text-decoration: none;
+}
+.desc{
+    width:50vw;
+}
+.portfolio-item-meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.item-wrap{
+    border-style: solid;
+    border-width: 1px;
+    margin:1%;
+    padding:1%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.demo-link{
+  height: 8vh;
+  width:8vw;
+  border-width: 1px;
+  border-radius: 5px;
+  padding:5px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  background-color: rgb(185, 185, 173);
+  color:beige;
+}
+
+.item-img{
+    height: 10vh;
+    width:10vw;
+    border-radius: 50%;
+}
